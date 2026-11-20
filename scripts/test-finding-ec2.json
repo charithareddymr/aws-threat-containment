@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "2.0",
+  "id": "manual-test-finding-ec2",
+  "type": "Backdoor:EC2/C&CActivity.B!DNS",
+  "title": "TEST: EC2 instance is querying a domain associated with a command and control server.",
+  "description": "Hand-made test event sent by scripts/send-test-event.sh",
+  "severity": 8,
+  "accountId": "REPLACED_BY_SCRIPT",
+  "region": "REPLACED_BY_SCRIPT",
+  "resource": {
+    "resourceType": "Instance",
+    "instanceDetails": {
+      "instanceId": "REPLACED_BY_SCRIPT"
+    }
+  }
+}

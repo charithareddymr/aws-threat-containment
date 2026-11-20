@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and edit the values.
+# terraform.tfvars is ignored by git so your email never ends up on GitHub.
+
+alert_email = "you@example.com"
+aws_region  = "us-east-1"
+
+# Start in dry-run mode. Switch to false only once you've seen the dry-run emails.
+dry_run = true
+
+# Set to false if GuardDuty is already turned on in this region.
+create_guardduty_detector = true
