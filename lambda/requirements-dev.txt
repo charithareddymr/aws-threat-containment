@@ -1,0 +1,5 @@
+# Only needed for tests and linting. The Lambda itself uses the boto3
+# that is already included in the AWS Lambda Python runtime.
+boto3
+pytest
+bandit
