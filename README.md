@@ -1,5 +1,7 @@
 # AWS Threat Containment Automation
 
+[![CI](https://github.com/charithareddymr/aws-threat-containment/actions/workflows/ci.yml/badge.svg)](https://github.com/charithareddymr/aws-threat-containment/actions/workflows/ci.yml)
+
 Automated incident response for Amazon GuardDuty. When GuardDuty reports a
 high-severity finding, this project contains the threat within seconds,
 preserves evidence and emails the security team. Everything is defined as code
